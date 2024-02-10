@@ -12,5 +12,5 @@ def substrings(word, dictionary)
     return substring_hash
 end
 
-substring = substrings("below", dictionary)
+substring = substrings("I am going down below to sit with my partner", dictionary)
 puts "#{substring}"
